@@ -1,0 +1,118 @@
+{
+   "biomassBurner": {
+      "id": "Biomass Burner",
+      "tier": 0,
+      "powerGenerated": 30,
+      "overclockable": true,
+      "width": 8,
+      "height": 7,
+      "length": 8,
+      "fuels": {
+         "leaves": "Leaves",
+         "flowerPetals": "Flower Petals",
+         "wood": "Wood",
+         "mycelia": "Mycelia",
+         "biomass": "Biomass",
+         "solidBiofuel": "Solid Biofuel",
+         "packagedLiquidBiofuel": "Packaged Liquid Biofuel",
+         "alienCarapace": "Alien Carapace",
+         "alienOrgans": "Alien Organs",
+         "fabric": "Fabric"
+      },
+      "requiredItems": {
+         "ironPlate": 15,
+         "ironRod": 15,
+         "wire": 25
+      }
+   },
+   "coalGenerator": {
+      "id": "Coal Generator",
+      "tier": 3,
+      "powerGenerated": 75,
+      "overclockable": true,
+      "width": 10,
+      "height": 36,
+      "length": 26,
+      "fuels": {
+         "coal": "Coal",
+         "compactedCoal": "Compacted Coal",
+         "petroleumCoke": "Petroleum Coke"
+      },
+      "requiredItems": {
+         "reinforcedIronPlate": 20,
+         "rotor": 10,
+         "cable": 30
+      }
+   },
+   "fuelGenerator": {
+      "id": "Fuel Generator",
+      "tier": 6,
+      "powerGenerated": 150,
+      "overclockable": true,
+      "width": 20,
+      "height": 27,
+      "length": 20,
+      "fuels": {
+         "fuel": "Fuel",
+         "liquidBiofuel": "Liquid Biofuel",
+         "turboFuel": "Turbofuel"
+      },
+      "requiredItems": {
+         "computer": 5,
+         "heavyModularFrame": 10,
+         "motor": 15,
+         "rubber": 50,
+         "quickwire": 50
+      }
+   },
+   "geothermalGenerator": {
+      "id": "Geothermal Generator",
+      "tier": false,
+      "powerGenerated": 200,
+      "overclockable": false,
+      "width": 19,
+      "height": 34,
+      "length": 20,
+      "fuels": "Geyser",
+      "requiredItems": {
+         "superComputer": 8,
+         "heavyModularFrame": 16,
+         "highSpeedConnector": 16,
+         "copperSheet": 40,
+         "rubber": 80
+      }
+   },
+   "nuclearPowerPlant": {
+      "id": "Nuclear Power Plant",
+      "tier": 7,
+      "powerGenerated": 2500,
+      "overclockable": false,
+      "width": 38,
+      "height": 49,
+      "length": 43,
+      "fuels": "Nuclear Fuel Rod",
+      "requiredItems": {
+         "concrete": 150,
+         "heavyModularFrame": 10,
+         "superComputer": 5,
+         "cable": 50,
+         "highSpeedConnector": 15
+      }
+   },
+   "powerLine": {
+      "id": "Power Line",
+      "tier": 0,
+      "requiredItems": {
+         "cable": 1
+      }
+   },
+   "powerPole": {
+      "id": "Power Pole",
+      "tier": 0,
+      "requiredItems": {
+         "wire": 3,
+         "ironRod": 1,
+         "concrete": 1
+      }
+   }
+}
