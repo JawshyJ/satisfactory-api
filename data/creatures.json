@@ -1,5 +1,7 @@
 {
     "lizardDoggo": {
-        
+        "id": "Lizard Doggo",
+        "hostile": false,
+        "hitPoints": 15
     }
 }

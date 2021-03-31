@@ -1,23 +1,44 @@
 {
     "ironOre": {
-
+        "id": "Iron Ore",
+        "tier": 0,
+        "stackSize": 100,
+        "sinkValue": 1
     },
     "copperOre": {
-
+        "id": "Copper Ore",
+        "tier": 0,
+        "stackSize": 100,
+        "sinkValue": 3
     },
     "limestoneOre": {
-
+        "id": "Limestone",
+        "tier": 0,
+        "stackSize": 100,
+        "sinkValue": 2
     },
     "coalOre": {
-
+        "id": "Coal",
+        "tier": 3,
+        "stackSize": 100,
+        "sinkValue": 3
     },
     "cateriumOre": {
-
+        "id": "Caterium Ore",
+        "tier": false,
+        "stackSize": 100,
+        "sinkValue": 7
     },
     "bauxiteOre": {
-
+        "id": "Bauxite",
+        "tier": 7,
+        "stackSize": 100,
+        "sinkValue": 8
     },
     "rawQuartzOre": {
-
+        "id": "Raw Quartz",
+        "tier": false,
+        "stackSize": 100,
+        "sinkValue": 15
     }
 }

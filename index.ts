@@ -24,7 +24,7 @@ app.get('/creatures', (req, res) => {
 });
 
 app.get('/ore', (req, res) => {
-
+    res.send(oreData);
 });
 
 app.get('/power', (req, res) => {
