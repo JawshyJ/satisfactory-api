@@ -1,0 +1,12 @@
+{
+      "iron_rod": {
+      "id": "Iron Rod",
+      "tier": 0,
+      "stackSize": 100,
+      "craftingIron_Rod": [
+         {"ingredient":"iron_ingot", "amountPerMinute":"15"},
+      ],
+      "craftingSteel_Rod": [
+         {"ingredient":"steel_ingot", "amountPerMinute":"12"},
+      ]
+}
