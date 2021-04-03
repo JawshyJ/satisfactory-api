@@ -5,14 +5,16 @@
       "stackSize":100,
       "craftingIronRod":[
          {
-            "ingredient":"ironIngot",
-            "amountPerMinute":"15"
+            "ingredient":"Iron Ingot",
+            "amountPerMinute":15,
+            "output":15
          }
       ],
       "craftingSteelRod":[
          {
-            "ingredient":"steelIngot",
-            "amountPerMinute":"12"
+            "ingredient":"Steel Ingot",
+            "amountPerMinute":12,
+            "output":48
          }
       ]
    }
